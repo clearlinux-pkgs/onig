@@ -4,7 +4,7 @@
 #
 Name     : onig
 Version  : 5.9.6
-Release  : 5
+Release  : 6
 URL      : http://www.geocities.jp/kosako3/oniguruma/archive/onig-5.9.6.tar.gz
 Source0  : http://www.geocities.jp/kosako3/oniguruma/archive/onig-5.9.6.tar.gz
 Summary  : Regular expression library
