@@ -1,4 +1,5 @@
 PKG_NAME := onig
-URL := http://www.geocities.jp/kosako3/oniguruma/archive/onig-5.9.6.tar.gz
+URL := https://github.com/kkos/oniguruma/releases/download/v6.3.0/onig-6.3.0.tar.gz
+
 
 include ../common/Makefile.common
