@@ -1,4 +1,5 @@
 libonig.so.4:euc_jp_lookup_property_name
+libonig.so.4:list_node_free_not_car
 libonig.so.4:onig_add_end_call
 libonig.so.4:onig_bbuf_init
 libonig.so.4:onig_capture_tree_traverse
