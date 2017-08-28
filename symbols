@@ -115,6 +115,7 @@ libonig.so.4:onigenc_apply_all_case_fold_with_map
 libonig.so.4:onigenc_ascii_apply_all_case_fold
 libonig.so.4:onigenc_ascii_get_case_fold_codes_by_str
 libonig.so.4:onigenc_ascii_mbc_case_fold
+libonig.so.4:onigenc_egcb_is_break_position
 libonig.so.4:onigenc_get_case_fold_codes_by_str_with_map
 libonig.so.4:onigenc_get_default_encoding
 libonig.so.4:onigenc_get_left_adjust_char_head
@@ -123,6 +124,7 @@ libonig.so.4:onigenc_get_right_adjust_char_head
 libonig.so.4:onigenc_get_right_adjust_char_head_with_prev
 libonig.so.4:onigenc_init
 libonig.so.4:onigenc_is_mbc_newline_0x0a
+libonig.so.4:onigenc_is_mbc_word_ascii
 libonig.so.4:onigenc_is_valid_mbc_string
 libonig.so.4:onigenc_length_check_is_valid_mbc_string
 libonig.so.4:onigenc_mb2_code_to_mbc
