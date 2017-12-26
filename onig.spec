@@ -4,7 +4,7 @@
 #
 Name     : onig
 Version  : 6.6.1
-Release  : 13
+Release  : 14
 URL      : https://github.com/kkos/oniguruma/releases/download/v6.6.1/onig-6.6.1.tar.gz
 Source0  : https://github.com/kkos/oniguruma/releases/download/v6.6.1/onig-6.6.1.tar.gz
 Summary  : Regular expression library
@@ -55,9 +55,9 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C
-export SOURCE_DATE_EPOCH=1504061998
+export SOURCE_DATE_EPOCH=1514310033
 %configure --disable-static
-make V=1  %{?_smp_mflags}
+make  %{?_smp_mflags}
 
 %check
 export LANG=C
@@ -67,7 +67,7 @@ export no_proxy=localhost,127.0.0.1,0.0.0.0
 make VERBOSE=1 V=1 %{?_smp_mflags} check
 
 %install
-export SOURCE_DATE_EPOCH=1504061998
+export SOURCE_DATE_EPOCH=1514310033
 rm -rf %{buildroot}
 %make_install
 
