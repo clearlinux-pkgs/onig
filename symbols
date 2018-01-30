@@ -27,6 +27,7 @@ libonig.so.4:onig_get_syntax_behavior
 libonig.so.4:onig_get_syntax_op
 libonig.so.4:onig_get_syntax_op2
 libonig.so.4:onig_get_syntax_options
+libonig.so.4:onig_get_try_in_match_limit
 libonig.so.4:onig_init
 libonig.so.4:onig_initialize
 libonig.so.4:onig_initialize_encoding
@@ -81,6 +82,7 @@ libonig.so.4:onig_set_syntax_behavior
 libonig.so.4:onig_set_syntax_op
 libonig.so.4:onig_set_syntax_op2
 libonig.so.4:onig_set_syntax_options
+libonig.so.4:onig_set_try_in_match_limit
 libonig.so.4:onig_set_verb_warn_func
 libonig.so.4:onig_set_warn_func
 libonig.so.4:onig_snprintf_with_pattern
