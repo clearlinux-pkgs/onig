@@ -4,7 +4,7 @@
 #
 Name     : onig
 Version  : 6.7.1
-Release  : 16
+Release  : 17
 URL      : https://github.com/kkos/oniguruma/releases/download/v6.7.1/onig-6.7.1.tar.gz
 Source0  : https://github.com/kkos/oniguruma/releases/download/v6.7.1/onig-6.7.1.tar.gz
 Summary  : Regular expression library
