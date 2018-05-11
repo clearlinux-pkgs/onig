@@ -4,7 +4,7 @@
 #
 Name     : onig
 Version  : 6.8.2
-Release  : 19
+Release  : 20
 URL      : https://github.com/kkos/oniguruma/releases/download/v6.8.2/onig-6.8.2.tar.gz
 Source0  : https://github.com/kkos/oniguruma/releases/download/v6.8.2/onig-6.8.2.tar.gz
 Summary  : Regular expression library
@@ -55,7 +55,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C
-export SOURCE_DATE_EPOCH=1524376081
+export SOURCE_DATE_EPOCH=1526072540
 export CFLAGS="$CFLAGS -O3 -falign-functions=32 -fno-math-errno -fno-semantic-interposition -fno-trapping-math "
 export FCFLAGS="$CFLAGS -O3 -falign-functions=32 -fno-math-errno -fno-semantic-interposition -fno-trapping-math "
 export FFLAGS="$CFLAGS -O3 -falign-functions=32 -fno-math-errno -fno-semantic-interposition -fno-trapping-math "
@@ -71,7 +71,7 @@ export no_proxy=localhost,127.0.0.1,0.0.0.0
 make VERBOSE=1 V=1 %{?_smp_mflags} check
 
 %install
-export SOURCE_DATE_EPOCH=1524376081
+export SOURCE_DATE_EPOCH=1526072540
 rm -rf %{buildroot}
 %make_install
 
