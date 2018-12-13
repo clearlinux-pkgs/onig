@@ -97,7 +97,7 @@ libonig.so.5:onig_node_free
 libonig.so.5:onig_node_list_add
 libonig.so.5:onig_node_new_alt
 libonig.so.5:onig_node_new_anchor
-libonig.so.5:onig_node_new_enclosure
+libonig.so.5:onig_node_new_bag
 libonig.so.5:onig_node_new_list
 libonig.so.5:onig_node_new_str
 libonig.so.5:onig_node_str_cat
@@ -109,6 +109,7 @@ libonig.so.5:onig_number_of_capture_histories
 libonig.so.5:onig_number_of_captures
 libonig.so.5:onig_number_of_names
 libonig.so.5:onig_parse_tree
+libonig.so.5:onig_positive_int_multiply
 libonig.so.5:onig_reduce_nested_quantifier
 libonig.so.5:onig_reg_callout_list_at
 libonig.so.5:onig_reg_init
