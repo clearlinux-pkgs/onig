@@ -1,5 +1,4 @@
 libonig.so.5:onig_add_end_call
-libonig.so.5:onig_bbuf_init
 libonig.so.5:onig_builtin_cmp
 libonig.so.5:onig_builtin_count
 libonig.so.5:onig_builtin_error
@@ -77,11 +76,13 @@ libonig.so.5:onig_get_syntax_options
 libonig.so.5:onig_get_used_stack_size_in_callout
 libonig.so.5:onig_global_callout_names_free
 libonig.so.5:onig_init
+libonig.so.5:onig_init_for_match_at
 libonig.so.5:onig_initialize
 libonig.so.5:onig_initialize_encoding
 libonig.so.5:onig_initialize_match_param
 libonig.so.5:onig_is_code_in_cc
 libonig.so.5:onig_is_code_in_cc_len
+libonig.so.5:onig_is_error_code_needs_param
 libonig.so.5:onig_is_in_code_range
 libonig.so.5:onig_match
 libonig.so.5:onig_match_with_param
@@ -175,7 +176,6 @@ libonig.so.5:onig_st_lookup_callout_name_table
 libonig.so.5:onig_st_lookup_strend
 libonig.so.5:onig_strcpy
 libonig.so.5:onig_strncmp
-libonig.so.5:onig_transfer
 libonig.so.5:onig_unicode_define_user_property
 libonig.so.5:onig_version
 libonig.so.5:onig_warning
@@ -235,6 +235,7 @@ libonig.so.5:onigenc_unicode_mbc_case_fold
 libonig.so.5:onigenc_unicode_property_name_to_ctype
 libonig.so.5:onigenc_unicode_unfold_key
 libonig.so.5:onigenc_utf16_32_get_ctype_code_range
+libonig.so.5:onigenc_wb_is_break_position
 libonig.so.5:onigenc_with_ascii_strncmp
 libonig.so.5:re_adjust_startpos
 libonig.so.5:re_alloc_pattern
