@@ -29,11 +29,13 @@ libonig.so.5:onig_free_match_param_content
 libonig.so.5:onig_free_reg_callout_list
 libonig.so.5:onig_get_arg_by_callout_args
 libonig.so.5:onig_get_args_num_by_callout_args
+libonig.so.5:onig_get_callback_each_match
 libonig.so.5:onig_get_callout_data
 libonig.so.5:onig_get_callout_data_by_callout_args
 libonig.so.5:onig_get_callout_data_by_callout_args_self
 libonig.so.5:onig_get_callout_data_by_callout_args_self_dont_clear_old
 libonig.so.5:onig_get_callout_data_by_tag
+libonig.so.5:onig_get_callout_data_by_tag_dont_clear_old
 libonig.so.5:onig_get_callout_data_dont_clear_old
 libonig.so.5:onig_get_callout_end_func_by_name_id
 libonig.so.5:onig_get_callout_in_by_callout_args
@@ -148,6 +150,7 @@ libonig.so.5:onig_scan
 libonig.so.5:onig_scan_env_set_error_string
 libonig.so.5:onig_search
 libonig.so.5:onig_search_with_param
+libonig.so.5:onig_set_callback_each_match
 libonig.so.5:onig_set_callout_data
 libonig.so.5:onig_set_callout_data_by_callout_args
 libonig.so.5:onig_set_callout_data_by_callout_args_self
