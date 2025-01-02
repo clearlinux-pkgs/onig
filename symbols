@@ -5,6 +5,7 @@ libonig.so.5:onig_builtin_error
 libonig.so.5:onig_builtin_fail
 libonig.so.5:onig_builtin_max
 libonig.so.5:onig_builtin_mismatch
+libonig.so.5:onig_builtin_skip
 libonig.so.5:onig_builtin_total_count
 libonig.so.5:onig_callout_tag_is_exist_at_callout_num
 libonig.so.5:onig_callout_tag_table_free
